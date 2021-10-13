@@ -13,7 +13,7 @@ int main()
         "For example:\n" <<
         "a=2; b=3; a*b (returns 6)\n"<<
         "Also there is predefined constants:\n" <<
-        "2*pi (returns 6.28...)\n" <<
+        "2*(pi+1) (returns 8.28...)\n" <<
         "To leave just print exit\n\n";
     table.insert("pi")-> value = 3.1415926535897932385;
     table.insert("e")-> value = 2.7182818284590452354;
